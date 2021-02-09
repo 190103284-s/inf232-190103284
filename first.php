@@ -1,8 +1,5 @@
 <?php
-echo "Welcome to PHP!";
-echo "Hello world!<br>";
-echo "I'm about to learn PHP!<br>";
-echo "Welcome to PHP!";
-echo "Hello world!<br>";
-echo "I'm about to learn PHP!<br>";
+echo strlen("Hello PHP!");
+echo str_word_count("Hello PHP!");
+echo strrev("Hello PHP!");
 ?> 
