@@ -1,7 +1,11 @@
 <?php 
-declare(strict_types=1); 
-function addNumbers(float $a, float $b) : float {
-  return $a + $b;
-}
-echo addNumbers(1.2, 5.2); 
+function relatives($first_name) {
+    echo "$first_name Batyrkhanova.<br>";
+  }
+  
+  relatives("Anara");
+  relatives("Aidana");
+  relatives("Aikorkem");
+  relatives("Aisulu");
+  relatives("Aizhan"); 
 ?>
